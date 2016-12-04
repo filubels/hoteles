@@ -1,0 +1,83 @@
+body{
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+.FI{
+	float: left;
+}
+.FD{
+	float: right;
+}
+#principal{
+	margin: auto;
+	width: 1000px;
+	/*temporal*/
+	
+}
+header{
+	width: 100%;
+	/*temporal*/
+	height: 150px;
+	background-color: rgba(0,0,0,0.8);
+}
+
+#logo{
+	width: 150px;
+	/*temporal*/
+	height: 150px;
+	text-align: center;
+	color: white;
+	background-color: rgba(255,0,0,0.5);
+}
+#login{
+	width: 150px;
+	/*temporal*/
+	height: 150px;
+	text-align: center;
+	color: white;
+	background-color: rgba(0,0,255,0.5);
+}
+
+nav{
+	margin-left: 150px;
+	padding: 10px;
+	/*temporal*/
+}
+nav ul{
+	padding-top:5px;
+	background-color: rgba(0,0,0,1);
+}
+ul li{
+	list-style: none;
+	display: inline;
+	padding-top:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgba(0,0,0,1);
+	margin-right: 10px;
+	/*temporal*/
+}
+
+ul li a{
+	color: white;
+}
+#contenido{
+	width: 100%;
+	/*temporal*/
+	height:500px;
+	background-color: rgba(0,0,0,0.4);
+}
+aside{
+	width: 100%;
+	/*temporal*/
+	height: 100px;
+	background-color: rgba(0,0,0,0.6);
+}
+footer{
+	width: 100%;
+	/*temporal*/
+	height: 200px;
+	background-color: rgba(0,0,0,1);
+}

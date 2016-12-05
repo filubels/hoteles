@@ -3,8 +3,17 @@ $(document).ready(inicio)
 function inicio(){
 	$(".btn_set_hostal").click(set_hostal);
 	$(".btn_eliminar_hostal").click(jsdel_hostal);
+  $("#producto").change(nuevo_producto);
 	//jsget_hostal();
 		
+}
+function nuevo_producto(){
+  var valor= $("#producto").val();
+    
+  if($("#producto").val()=="Nuevo"){
+      alert(valor);
+      $("#pNuevo").disabled=true;
+  }
 }
 function set_hostal(){
 	

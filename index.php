@@ -3,7 +3,12 @@
 ?>
 	
 	<section>
-		
+		<select id="producto">
+			<option>Botas</option>
+			<option>Nuevo</option>
+
+		</select>
+		<input type="text" id="pNuevo" ></input>
 	</section>
 	<section>
 		
